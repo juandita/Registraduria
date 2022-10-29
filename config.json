@@ -1,0 +1,7 @@
+{
+  "url-backend": "127.0.0.1",
+  "port": 9999,
+
+  "database-url":"mongodb://juanda:juanda@ac-gceqpva-shard-00-00.ajz9qon.mongodb.net:27017,ac-gceqpva-shard-00-01.ajz9qon.mongodb.net:27017,ac-gceqpva-shard-00-02.ajz9qon.mongodb.net:27017/?ssl=true&replicaSet=atlas-lr7lii-shard-0&authSource=admin&retryWrites=true&w=majority",
+  "database-name":"registraduria"
+}
