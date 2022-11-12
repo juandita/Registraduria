@@ -1,9 +1,9 @@
 from models.cuidadano import Cuidadano
-from repositorios.repositoriocuidadano import InterfaceRepository
+from repositorios.repositoriocuidadano import repositoriocuidadano
 
 class controladorcuidadano:
   def __init__(self):
-    self.repo = InterfaceRepository()
+    self.repo = repositoriocuidadano()
 
   #Listar
   def index(self):
